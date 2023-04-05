@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @edumats
-- 💻 I am a freelance Web Developer
+- 💻 I work as a freelance Web Developer
 - 👀 I’m interested in AI, IOT and cryptocurrencies
 - 🌱 I’m currently learning AWS Serverless Web Services and ReactJS
 - 💞️ I’m looking to collaborate on open source and freelance projects
