@@ -8,7 +8,11 @@
 
 #### :books: Check out my recent Blog Posts
 <!-- BLOGPOSTS:START -->
-<!-- BLOGPOSTS:END -->
+ - 💯 [Use ChatGPT as your free programming teacher](https://edumats.dev/use-chatgpt-as-your-free-programming-teacher)
+ - 🌮 [Don&#39;t use float to represent currency. Here is why](https://edumats.dev/dont-use-float-to-represent-currency-here-is-why)
+ - 🔥 [Learn  about Artificial Intelligence for free at Harvard University](https://edumats.dev/learn-about-artificial-intelligence-for-free-at-harvard-university)
+ - 🚀 [As a developer, don&#39;t reinvent the wheel. An advice for developers and entrepreneurs](https://edumats.dev/as-a-developer-dont-reinvent-the-wheel-an-advice-for-developers-and-entrepreneurs)
+ - 🔥 [6 lessons I have learned in my path to become a developer](https://edumats.dev/6-lessons-i-have-learned-in-my-path-to-become-a-developer)<!-- BLOGPOSTS:END -->
 
 <!---
 edumats/edumats is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
