@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @edumats
+### 👋 Hi there, I’m Eduardo!
 - 💻 I work as a freelance Web Developer
 - ✏️ I write about technology at my [blog](https://edumats.dev/) 
 - 👀 I’m interested in AI, IOT and cryptocurrencies
