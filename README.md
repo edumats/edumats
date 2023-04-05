@@ -7,6 +7,8 @@
 - 📫 You could reach me at eduardo.mats@gmail.com
 
 #### :books: Check out my recent Blog Posts
+<!-- BLOGPOSTS:START -->
+<!-- BLOGPOSTS:END -->
 
 <!---
 edumats/edumats is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
