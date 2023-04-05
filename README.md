@@ -1,6 +1,6 @@
 ### 👋 Hi there, I’m Eduardo!
-- 💻 I work as a freelance Web Developer
-- 👀 I’m interested in AI, IOT and crypto
+- 💻 Python backend developer
+- 👀 I’m interested in AI, IOT, crypto and writing about tech
 - 🌱 I’m currently learning AWS Serverless Web Services and ReactJS
 - 💞️ I’m looking to collaborate on open source and freelance projects
 - 📫 You could reach me at eduardo.mats@gmail.com
