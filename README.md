@@ -7,11 +7,11 @@
 
 #### :books: Check out my recent Blog Posts
 <!-- BLOGPOSTS:START -->
- - 💯 [Use localStorage to power up your apps](https://edumats.dev/use-localstorage-to-power-up-your-apps)
- - 🌮 [Use ChatGPT as your free programming teacher](https://edumats.dev/use-chatgpt-as-your-free-programming-teacher)
- - 🔥 [Don&#39;t use float to represent currency. Here is why](https://edumats.dev/dont-use-float-to-represent-currency-here-is-why)
- - 🚀 [Learn  about Artificial Intelligence for free at Harvard University](https://edumats.dev/learn-about-artificial-intelligence-for-free-at-harvard-university)
- - 🔥 [As a developer, don&#39;t reinvent the wheel. An advice for developers and entrepreneurs](https://edumats.dev/as-a-developer-dont-reinvent-the-wheel-an-advice-for-developers-and-entrepreneurs)<!-- BLOGPOSTS:END -->
+ - 💯 [Understanding Big O Notation: A Beginner&#39;s Guide](https://edumats.dev/understanding-big-o-notation-a-beginners-guide)
+ - 🌮 [Use localStorage to power up your apps](https://edumats.dev/use-localstorage-to-power-up-your-apps)
+ - 🔥 [Use ChatGPT as your free programming teacher](https://edumats.dev/use-chatgpt-as-your-free-programming-teacher)
+ - 🚀 [Don&#39;t use float to represent currency. Here is why](https://edumats.dev/dont-use-float-to-represent-currency-here-is-why)
+ - 🔥 [Learn  about Artificial Intelligence for free at Harvard University](https://edumats.dev/learn-about-artificial-intelligence-for-free-at-harvard-university)<!-- BLOGPOSTS:END -->
 
 Check [edumats.dev](https://edumats.dev/) for more interesting posts!
 <!---
