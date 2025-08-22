@@ -12,12 +12,17 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+      
+      - name: Debug Tabnews API
+        run: |
+          curl -s "https://www.tabnews.com.br/api/v1/contents/eduardoMats?with_children=false" | head -c 500
 
-      - name: Fetch Tabnews posts
+      - name: Fetch Tabnews posts (sorted by newest)
         run: |
           echo "Fetching Tabnews posts..."
           curl -s "https://www.tabnews.com.br/api/v1/contents/eduardoMats?with_children=false" \
-            | jq -r '[.[0:5][] | "- [" + .title + "](https://www.tabnews.com.br/" + .owner_username + "/" + .slug + ")"] | join("\n")' > posts.md
+            | jq -r 'sort_by(.published_at) | reverse | .[0:5] | .[] | "- [" + .title + "](https://www.tabnews.com.br/" + .owner_username + "/" + .slug + ")"' > posts.md
+
 
       - name: Update README.md
         run: |
