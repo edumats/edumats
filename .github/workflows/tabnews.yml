@@ -20,9 +20,12 @@ jobs:
       - name: Fetch Tabnews posts (sorted by newest)
         run: |
           echo "Fetching Tabnews posts..."
-          curl -s "https://www.tabnews.com.br/api/v1/contents/eduardoMats?with_children=false" \
+          curl -sL --compressed \
+            -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0 Safari/537.36" \
+            -H "Accept: application/json, text/plain, */*" \
+            -H "Accept-Language: en-US,en;q=0.9" \
+            "https://www.tabnews.com.br/api/v1/contents/eduardoMats?with_children=false" \
             | jq -r 'sort_by(.published_at) | reverse | .[0:5] | .[] | "- [" + .title + "](https://www.tabnews.com.br/" + .owner_username + "/" + .slug + ")"' > posts.md
-
 
       - name: Update README.md
         run: |
