@@ -5,6 +5,11 @@
 - 💞️ I’m looking to collaborate on open source and freelance projects
 - 📫 You could reach me at eduardo.mats@gmail.com
 
+#### Here are my latest posts on [Tabnews](https://www.tabnews.com.br/) forum:
+
+<!-- TABNEWS:START -->
+<!-- TABNEWS:END -->
+
 #### :books: Check out my recent Blog Posts
 <!-- BLOGPOSTS:START -->
  - 💯 [Understanding Big O Notation: A Beginner&#39;s Guide](https://edumats.dev/understanding-big-o-notation-a-beginners-guide)

@@ -1,0 +1,33 @@
+name: Update Tabnews posts
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # Runs every day at 06:00 UTC
+  workflow_dispatch: # Allow manual runs
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch Tabnews posts
+        run: |
+          echo "Fetching Tabnews posts..."
+          curl -s "https://www.tabnews.com.br/api/v1/contents/eduardoMats?with_children=false" \
+            | jq -r '[.[0:5][] | "- [" + .title + "](https://www.tabnews.com.br/" + .owner_username + "/" + .slug + ")"] | join("\n")' > posts.md
+
+      - name: Update README.md
+        run: |
+          # Insert posts between the markers
+          sed -i '/<!-- TABNEWS:START -->/,/<!-- TABNEWS:END -->/c\<!-- TABNEWS:START -->\n'"$(cat posts.md)"'\n<!-- TABNEWS:END -->' README.md
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: update Tabnews posts" || echo "No changes to commit"
+          git push
